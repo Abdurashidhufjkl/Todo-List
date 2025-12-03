@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  margin: 100px auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  border-radius: 9px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+#username {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+#date {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+#submit {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(62, 197, 62);
+}
+
+::placeholder {
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+
+li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+.actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+
+.done-btn {
+  background-color: #2196f3; 
+  color: white;
+}
+.edit-btn {
+  background-color: #ffc107; 
+  color: #333;
+}
+.delete-btn {
+  background-color: #f44336; 
+  color: white;
+}
+
+
+
